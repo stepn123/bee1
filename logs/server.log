@@ -1,0 +1,81 @@
+[2023-08-21 09:42:01] [INFO] /execInput POST (127.0.0.1) 200 1.0091ms - Input executed successfully
+[2023-08-21 13:55:46] [INFO] /execInput POST (127.0.0.1) 422 1.041ms - The request entity contains invalid or missing data
+[2023-08-21 13:55:55] [INFO] /execInput POST (127.0.0.1) 200 2.0236ms - 
+[ERROR] 2023/08/21 14:16:47 /execInput POST: panic here
+[2023-08-21 15:22:11] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.6498059s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 15:23:05] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.0203565s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 15:23:58] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.7419384s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 15:24:32] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.8913292s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 15:29:49] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.9202921s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 15:32:50] [WARNING] /insertRuletoRuleSet PATCH (127.0.0.1) 500 1.6725108s - write exception: write errors: [The field 'rules' must be an array but is of type null in document {_id: ObjectId('64df25fc4dbc5f9d8a1cd90f')}]
+[2023-08-21 15:33:14] [INFO] /insertRuleTemplate POST (127.0.0.1) 409 1.0090733s - rule set already exists
+[2023-08-21 15:33:19] [INFO] /fetchRules GET (127.0.0.1) 200 897.8358ms - 
+[2023-08-21 15:39:19] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.7015751s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 15:41:33] [INFO] /fetchRules GET (127.0.0.1) 200 1.8755046s - 
+[2023-08-21 15:41:50] [INFO] /insertRuleTemplate POST (127.0.0.1) 409 923.2275ms - rule set already exists
+[2023-08-21 15:49:30] [INFO] /insertRuleTemplate POST (127.0.0.1) 409 1.977199s - rule set already exists
+[2023-08-21 15:49:33] [INFO] /fetchRules GET (127.0.0.1) 200 947.5383ms - 
+[2023-08-21 15:53:37] [INFO] /fetchRules GET (127.0.0.1) 200 1.9740794s - 
+[2023-08-21 15:54:00] [INFO] /fetchRules GET (127.0.0.1) 200 978.8376ms - 
+[2023-08-21 15:55:30] [INFO] /fetchRules GET (127.0.0.1) 200 1.6454136s - 
+[2023-08-21 16:02:23] [INFO] /fetchRules GET (127.0.0.1) 200 1.6986625s - 
+[2023-08-21 16:03:19] [INFO] /fetchRules GET (127.0.0.1) 200 1.7335639s - 
+[2023-08-21 16:06:18] [INFO] /fetchRules GET (127.0.0.1) 200 2.0299862s - 
+[2023-08-21 16:07:07] [INFO] /fetchRules GET (127.0.0.1) 200 1.6539797s - 
+[2023-08-21 16:35:36] [INFO] /fetchRules GET (127.0.0.1) 200 1.8140194s - 
+[2023-08-21 16:35:53] [INFO] /execInput POST (127.0.0.1) 200 941.3074ms - 
+[2023-08-21 16:37:01] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.2530847s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 16:41:10] [INFO] /updateRuleSet PUT (127.0.0.1) 200 1.1628926s - Rule set 'RuleSet 1' has been updated
+[2023-08-21 16:43:43] [INFO] /deleteRuleSet DELETE (127.0.0.1) 404      0s - Cannot DELETE /deleteRuleSet
+[2023-08-21 16:48:34] [INFO] /insertRuleTemplate POST (127.0.0.1) 409 1.9840991s - rule set already exists
+[2023-08-21 16:48:39] [INFO] /fetchRules GET (127.0.0.1) 200 903.638ms - 
+[2023-08-21 16:48:42] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.0065401s - 3 new rules has been inserted to RuleSet 1
+[ERROR] 2023/08/21 16:48:46 /execInput POST: interface conversion: interface {} is float64, not string
+[ERROR] 2023/08/21 16:55:12 Encountered a system error:  missing handler in route: /deleteRuleSet
+
+[ERROR] 2023/08/21 17:05:36 Encountered a system error:  missing handler in route: /deleteRuleSet
+
+[2023-08-21 17:06:01] [INFO] /insertRuleTemplate POST (127.0.0.1) 201 2.0028302s - new rule set inserted
+[2023-08-21 17:06:05] [INFO] /fetchRules GET (127.0.0.1) 200 974.7842ms - 
+[2023-08-21 17:06:10] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 974.0834ms - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 17:06:14] [INFO] /execInput POST (127.0.0.1) 200 977.4162ms - %!s(float64=30)
+[2023-08-21 17:06:27] [INFO] /updateRuleSet PUT (127.0.0.1) 200 970.4278ms - Rule set 'RuleSet 1' has been updated
+[2023-08-21 17:06:31] [INFO] /deleteRuleSet DELETE (127.0.0.1) 200 925.9294ms - rule set RuleSet 1 has been deleted
+[2023-08-21 17:26:00] [INFO] /execInput POST (127.0.0.1) 404 1.738813s - rule set RuleSet 1 not found
+[2023-08-21 17:26:06] [INFO] /insertRuleTemplate POST (127.0.0.1) 201 1.0745623s - new rule set inserted
+[2023-08-21 17:26:09] [INFO] /fetchRules GET (127.0.0.1) 200 938.7774ms - 
+[2023-08-21 17:26:12] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 989.8954ms - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 17:26:16] [INFO] /execInput POST (127.0.0.1) 200 898.4419ms - %!s(float64=30)
+[2023-08-21 17:26:50] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.9756305s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 17:26:53] [INFO] /deleteRuleSet DELETE (127.0.0.1) 200 928.4366ms - rule set RuleSet 1 has been deleted
+[2023-08-21 17:26:56] [INFO] /insertRuleTemplate POST (127.0.0.1) 201 1.0271842s - new rule set inserted
+[2023-08-21 17:26:59] [INFO] /fetchRules GET (127.0.0.1) 200 1.1573651s - 
+[2023-08-21 17:27:02] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 994.7255ms - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 17:27:05] [INFO] /execInput POST (127.0.0.1) 200 1.0030982s - 30
+[2023-08-21 17:27:29] [INFO] /updateRuleSet PUT (127.0.0.1) 200 1.0036454s - Rule set 'RuleSet 1' has been updated
+[2023-08-21 17:27:33] [INFO] /deleteRuleSet DELETE (127.0.0.1) 200 1.0234738s - rule set RuleSet 1 has been deleted
+[2023-08-21 17:30:12] [INFO] /execInput POST (127.0.0.1) 404 1.687314s - rule set RuleSet 1 not found
+[2023-08-21 17:30:18] [INFO] /insertRuleTemplate POST (127.0.0.1) 201 976.1761ms - new rule set inserted
+[2023-08-21 17:30:23] [INFO] /insertRuletoRuleSet PATCH (127.0.0.1) 200 1.0201433s - 3 new rules has been inserted to RuleSet 1
+[2023-08-21 17:30:28] [INFO] /execInput POST (127.0.0.1) 200 1.0260842s - execute 'RuleSet 1' rule set
+[2023-08-21 17:52:46] [INFO] /fetchRules GET (127.0.0.1) 200 1.6342734s - 
+[2023-08-21 17:53:24] [INFO] /fetchRules GET (127.0.0.1) 200 1.0008228s - 
+[2023-08-21 17:54:39] [INFO] /fetchRules GET (127.0.0.1) 200 1.2506258s - 
+[2023-08-21 17:55:18] [INFO] /fetchRules GET (127.0.0.1) 200 1.4907101s - 
+[2023-08-21 17:55:25] [INFO] /fetchRules GET (127.0.0.1) 200 917.3453ms - 
+[2023-08-21 17:55:42] [INFO] /fetchRules GET (127.0.0.1) 200 1.1631231s - 
+[2023-08-21 17:56:36] [INFO] /fetchRules GET (127.0.0.1) 200 1.0176835s - 
+[2023-08-22 21:17:07] [INFO] /fetchRules GET (127.0.0.1) 200 624.0777ms - 
+[2023-08-22 21:17:07] [INFO] /fetchRules GET (127.0.0.1) 200 624.0777ms - 
+[2023-08-22 21:17:19] [INFO] /fetchRules GET (127.0.0.1) 200 617.4994ms - 
+[2023-08-22 21:17:31] [INFO] /fetchRules GET (127.0.0.1) 200 631.8358ms - 
+[2023-08-22 21:17:42] [INFO] /fetchRules GET (127.0.0.1) 200 624.2782ms - 
+[2023-08-22 21:18:01] [INFO] /fetchRules GET (127.0.0.1) 200 619.5305ms - 
+[2023-08-22 21:18:01] [INFO] /fetchRules GET (127.0.0.1) 200 624.1595ms - 
+[2023-08-22 21:18:07] [INFO] /fetchRules GET (127.0.0.1) 200 626.7942ms - 
+[2023-08-22 21:18:11] [INFO] /fetchRules GET (127.0.0.1) 200 626.0265ms - 
+[2023-08-22 21:18:11] [INFO] /fetchRules GET (127.0.0.1) 200 624.8158ms - 
+[2023-08-22 21:18:53] [INFO] /api/rule/ruleset1 GET (127.0.0.1) 404 1.0079ms - resource not found
+[2023-08-22 21:18:53] [INFO] /api/rule/ruleset1 GET (127.0.0.1) 404      0s - resource not found
+[2023-08-22 21:19:01] [INFO] /fetchRules GET (127.0.0.1) 200 616.2326ms - 
+[2023-08-22 21:19:01] [INFO] /fetchRules GET (127.0.0.1) 200 617.7426ms - 
